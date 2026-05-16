@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    background-color: rgb(245, 244, 244);
+}
+
+header {
+    background: beige url(omelete-pq.png) center center no-repeat;
+    background-size: cover;
+    height: 220px;
+}
+
+h1 {
+    font-size: 2.5em;
+    padding: 20px 20px 10px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    line-height: 1.5em;
+    padding: 20px;
+    text-align: justify;
+}
+
+#preparacao {
+    background-color: rgba(179, 13, 179, 0.153);
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#preparacao h3 {
+    padding: 10px;
+    color: purple;
+}
+
+#preparacao ul {
+    list-style-position: inside;
+    padding: 10px;
+}
+
+hr {
+    width: 450px;
+    margin: auto;
+    margin: 5px;
+    border-width: 0;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.345);
+}
+
+h2 {
+    padding: 20px;
+    font-size: 2em;
+    color: rgb(155, 115, 13);
+}
+
+ul {
+    padding: 10px 40px 10px 40px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+ol {
+    padding: 10px 40px 10px 40px;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.pai {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gramas {
+    color: rgb(155, 115, 13);
+    font-weight: bold;
+}
