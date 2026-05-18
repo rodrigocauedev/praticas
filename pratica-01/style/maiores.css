@@ -1,8 +1,6 @@
 @charset "UTF-8";
 
 header {
-    background-image: url(../imagens/omelete.jpg);
-    background-position: center center;
     min-height: 280px;
 }
 
