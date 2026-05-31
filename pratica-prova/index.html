@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+            text-align: center;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Título</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, exercitationem asperiores possimus soluta suscipit tempora ad expedita fugiat laborum culpa alias velit excepturi facere vero dolores praesentium veniam corrupti earum?</p>
+    <fieldset style="padding: 15px; margin-bottom: 20px;">
+        <legend style="text-align: center;">Login</legend>
+        <form action="nada.php" method="post" style="text-align: center;">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required minlength="10"> <br>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" required min="8" style="margin-top: 10px;"> <br>
+            <input type="submit" value="Enviar" style="margin-top: 10px;">
+            <input type="reset" value="Limpar">
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend style="text-align: center;">Informações pessoais</legend>
+        <form action="" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome"> <br>
+            <label for="idade">Idade:</label>
+            <input type="number" name="idade" id="idade"> <br>
+            <label for="nasc">Data de nascimento:</label>
+            <input type="date" name="nasc" id="nasc"> <br>
+            <label for="pais">Naturalidade:</label>
+            <select name="pais" id="pais">
+                <option value="--">------</option>
+                <option value="Brasil">Brasil</option>
+                <option value="França">França</option>
+                <option value="Inglaterra">Inglaterra</option>
+                <option value="Angola">Angola</option>
+            </select> <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </form>
+    </fieldset>
+
+    <table>
+        <thead">
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Naturalidade</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cauê</td>
+                <td>19</td>
+                <td>Brasileiro</td>
+            </tr>
+            <tr>
+                <td>Valeska</td>
+                <td>21</td>
+                <td>Brasileira</td>
+            </tr>
+            <tr>
+                <td>Sandra</td>
+                <td>43</td>
+                <td>Brasileira</td>
+            </tr>
+            <tr>
+                <td>Rodrigo</td>
+                <td>43</td>
+                <td>Brasileiro</td>
+            </tr>
+            <tr>
+                <td>Vivian</td>
+                <td>23</td>
+                <td>Brasileira</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div style="width: 300px; margin: auto;"><a href="https://www.cbf.com.br/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Brazilian_Football_Confederation_logo.svg" alt="Logo da Seleção Brasileira de Futebol" style="display: block; margin: 50px auto;"></a></div>
+</body>
+</html>
