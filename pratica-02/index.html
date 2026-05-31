@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        header {
+            background-color: gray;
+            display: flex;
+            flex-flow: row wrap;
+            min-height: 45px;
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        nav {
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        header a {
+            text-decoration: none;
+            color: black;
+            font-size: 1.5em;
+            padding: 5px;
+            margin-right: 10px;
+            flex: auto;
+        }
+
+        header a:hover {
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        main {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        #container {
+            display: flex;
+        }
+
+        .container a {
+            text-decoration: none;
+            font-size: 1.2em;
+            margin: 10px;
+            flex: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Buuz</h1>
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Loja</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Notícias</h2>
+        <div id="container">
+            <div class="container">
+                <img src="" alt="">
+                <a href="">Carleto anuncia quinteto inicial para amisto contra o Panamá</a>
+            </div>
+            <div class="container">
+                <img src="" alt="">
+                <a href="">Carleto anuncia quinteto inicial para amisto contra o Panamá</a>    
+            </div>
+            <div class="container">
+                <img src="" alt="">
+                <a href="">Carleto anuncia quinteto inicial para amisto contra o Panamá</a>
+            </div>
+            <div class="container">
+                <img src="" alt="">
+                <a href="">Carleto anuncia quinteto inicial para amisto contra o Panamá</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
