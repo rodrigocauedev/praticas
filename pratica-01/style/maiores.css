@@ -1,13 +1,21 @@
 @charset "UTF-8";
 
-header {
-    min-height: 280px;
-}
 
 main {
+    margin: 100px auto;
     max-width: 800px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+#imagem
+{
+    max-width: 700px;
     margin: auto;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.400);
+}
+
+#imagem img {
+    border-radius: 15px;
 }
 
 #preparacao {
@@ -15,6 +23,5 @@ main {
 }
 
 hr {
-    width: 750px;
     margin: auto;
 }
